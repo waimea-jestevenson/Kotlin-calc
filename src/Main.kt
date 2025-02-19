@@ -1,18 +1,14 @@
 fun main() {
+var operation =
     println("Welcome to the ultimate calculator 1000")
 
+getDouble("Enter the 1st number:")
+getString("Operation: + - * /:")
+getDouble("Enter the 2nd number:")
 
+when {
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -73,6 +69,6 @@ fun getDouble(prompt:String):Int {
         // Only leave loop if valid conversion
         if (userNumber != null) break
     }
-
-
+    return userNumber!!
 }
+
